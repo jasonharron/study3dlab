@@ -786,7 +786,7 @@ if (fetchLog) {
 }
 */
 if (fetchLog) {
-  fetch("log5.txt")
+  fetch("log1.txt")
     .then((response) => response.text())
     .then((data) => (csvData1 = csvToArray(data)));
 }
